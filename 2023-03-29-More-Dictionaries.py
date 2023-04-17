@@ -116,7 +116,7 @@ def value_sum(d: Dict[str, List[int]], str) -> int:
     sum_so_far = 0
 
     for key in d:
-        if char in key:
+        if str in key:
 
             for item in d[key]:
                 sum_so_far += item

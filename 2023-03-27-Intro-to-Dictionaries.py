@@ -143,7 +143,7 @@ print(12 in csci_dict)
 print(12 in list(csci_dict.values()))
 
 ######## Important info with dictionaries
-# Each key maps to a single value (which can be any one thing
+# Each key maps to a single value (which can be any one thing)
 # To be able to delete information from a dictionary, simply use the 'del' function.
 # -- a str, an int, a float, or even a list
 #   or another dictionary!
@@ -196,7 +196,8 @@ def dict_freq_count(s: str) -> Dict[str, float]:
             total += 1
 
     for key in freq_dict:
-        freq_dict[key] /= total
+        var = freq_dict[key]
+        # freq_dict[key] /= total
 
     return freq_dict
 #
